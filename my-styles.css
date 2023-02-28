@@ -4,3 +4,8 @@ body {
 }
 h1 {font-size: 60px;
     color: #17799F}
+
+    body {
+      /* background-image: url("images/akitsushima.jpeg"); */
+      background-color: #8BBCCF;
+     }
