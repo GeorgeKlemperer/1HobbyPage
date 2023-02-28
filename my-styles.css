@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300&display=swap');
-body {
-  font-family: "Newsreader", serif;
-}
-h1 {font-size: 60px;
-    color: #17799F}
+
+    body {
+    font-family: "Newsreader", serif;
+    }
+
+    h1 {font-size: 60px;
+    color: #17799F
+    }
 
     body {
       /* background-image: url("images/akitsushima.jpeg"); */
       background-color: #8BBCCF;
      }
+
+     img {
+      width: 100%;
+      /* sets width of all images rtoo 100% */
+    }
