@@ -1,4 +1,4 @@
-# ![](https://learn.foundersandcoders.com/assets/images/logo.svg){:height="100px" width="100px"} Founders and Coders Application - Spring 2023 Cohort
+#Founders and Coders Application - Spring 2023 Cohort
 
 ## Repository Contents:
 
