@@ -1,4 +1,4 @@
-# ![](https://i.imgur.com/aMQ6p7F.jpg?3) Founders and Coders Application - Spring 2023 Cohort
+# ![](https://learn.foundersandcoders.com/assets/images/logo.svg) Founders and Coders Application - Spring 2023 Cohort
 
 ## Repository Contents:
 
