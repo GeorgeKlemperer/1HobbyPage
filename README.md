@@ -1,4 +1,4 @@
-#Founders and Coders Application - Spring 2023 Cohort
+# Founders and Coders Application - Spring 2023 Cohort
 
 ## Repository Contents:
 
