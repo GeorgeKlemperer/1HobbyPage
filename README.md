@@ -1,4 +1,4 @@
-# <img src="https://cdn0.iconfinder.com/data/icons/entypo/80/link5-512.png" height="0.5" /> Founders and Coders Application - Spring 2023 Cohort
+# ![](https://learn.foundersandcoders.com/assets/images/logo.svg){:height="100px" width="100px"} Founders and Coders Application - Spring 2023 Cohort
 
 ## Repository Contents:
 
