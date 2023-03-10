@@ -36,8 +36,17 @@
       background-color: #8BBCCF;
       padding: 0 20px 20px 20px;
       /*border: 5px solid black;*/
+      text-align: justify;
+      text-justify: inter-word;
       }
 
+
+      figure {
+        width: 100%;
+        margin: 0;
+    padding: 10px 0;
+        /* sets width of all images rtoo 100% */
+        }
 
      img {
       width: 100%;
