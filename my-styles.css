@@ -44,14 +44,17 @@
       figure {
         width: 100%;
         margin: 0;
-    padding: 10px 0;
-        /* sets width of all images rtoo 100% */
+        padding: 10px 0;
+        /* sets width of all images to 100% */
         }
 
-     img {
-      width: 100%;
-      /* sets width of all images rtoo 100% */
-      }
+        .saluteimage {
+          width: 30%;
+          padding: 16px 0 0 10px;
+          }
+    
+
+
 
     .sml{
       line-height: 0
