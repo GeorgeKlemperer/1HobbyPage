@@ -44,13 +44,24 @@
 margin: 0;
     }
     
+    .salutefigure {
+    float: right;
+      padding: 0 0 0 10px;
+      width: 25%;
+      
+    }
 
         .saluteimage {
-          width: 25%;
-          padding: 0 0 0 10px;
-          float: right;
+          width: 100%;
+          padding: 0 0 10px 10px;
           margin: 0;
           }
+
+          .salutecaption {
+            padding: 0 0 0 10px;
+
+          }
+        
 
 
           .akitsushimaimage {
