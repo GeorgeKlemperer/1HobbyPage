@@ -12,7 +12,8 @@ html {
 
 #date {
   text-align: right;
-  width: 100%;
+  width: 80%;
+  margin: 16px auto;
 }
 
 p,
@@ -25,7 +26,6 @@ li {
 #titlebackground {
   width: 100%;
   height: 200px;
-  width: 100%;
   background-image: url("images/coronbay.jpg");
   background-position-y: 20%;
   background-size: cover;
