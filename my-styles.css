@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300&display=swap");
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 16px;
   font-family: "Newsreader", serif;
 }
 
-.date {
+#date {
   text-align: right;
+  width: 100%;
 }
 
 p,
@@ -16,28 +22,53 @@ li {
   letter-spacing: 1px;
 }
 
+#titlebackground {
+  width: 100%;
+  height: 200px;
+  width: 100%;
+  background-image: url("images/coronbay.jpg");
+  background-position-y: 20%;
+  background-size: cover;
+  text-align: center;
+  border-bottom: 5px solid navy;
+  border-top: 5px solid navy;
+}
+
 h1 {
+  position: relative;
   font-size: 60px;
   margin: 0;
-  padding: 20px 0;
-  color: #17799f;
-  text-align: center;
+  padding: 20px;
+  color: antiquewhite;
+  width: fit-content;
+  text-decoration: underline;
+}
+
+/* Centers h1 inside title */
+#titlebackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#maincontent {
+position: relative; 
+left: 50%;
+transform: translateX(-50%);
+width: 80%
 }
 
 h2 {
-  margin: 0;
-  padding: 5px 0;
+  margin: 10px;
+  /* padding: 10px 0 0 0; */
 }
 
 body {
-  width: 1000px;
-  margin: 0 auto; /*When you set two values on a property like margin or padding, the first value affects the element's top and bottom side (setting it to 0 in this case); the second value affects the left and right side. (Here, auto is a special value that divides the available horizontal space evenly between left and right)/
-      /* background-image: url("images/akitsushima.jpeg"); */
-  background-color: #8bbccf;
-  padding: 0 20px 20px 20px;
-  /*border: 5px solid black;*/
+  margin: 0 auto; /*When you set two values on a property like margin or padding, the first value affects the element's top and bottom side (setting it to 0 in this case); the second value affects the left and right side. (Here, auto is a special value that divides the available horizontal space evenly between left and right)*/
+  background-color: #ECBB95;
   text-align: justify;
   text-justify: inter-word;
+  color: #08192C;
 }
 
 figure {
@@ -46,25 +77,23 @@ figure {
 
 .salutefigure {
   float: right;
-  padding: 0 0 0 10px;
+  padding: 6px 0 0 20px;
   width: 25%;
 }
 
 .saluteimage {
   width: 100%;
-  padding: 0 0 10px 10px;
   margin: 0;
 }
 
 .salutecaption {
-  padding: 0 0 0 10px;
+  padding: 10px 0 0 0px;
 }
 
 .akitsushimaimage {
   width: 100%;
   margin: 0;
   padding: 10px 0;
-  /* sets width of all images to 100% */
 }
 
 .smlinks {
@@ -85,4 +114,13 @@ figure {
 
 .social-media-logos:hover {
   -webkit-filter: opacity(50%);
+}
+
+/* To centre image need to turn off float and set side margins to auto */
+@media (max-width: 600px) {
+  .salutefigure {
+    float: none; 
+    margin: 0 auto; 
+    padding: 0;
+    width: 80%;
 }
