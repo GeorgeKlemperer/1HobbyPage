@@ -6,7 +6,7 @@ html, body {
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Newsreader", serif;
 }
 
@@ -18,7 +18,7 @@ html {
 
 p,
 li {
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.2;
   letter-spacing: 1px;
 }
@@ -65,10 +65,13 @@ h2 {
 
 body {
   margin: 0 auto; /*When you set two values on a property like margin or padding, the first value affects the element's top and bottom side (setting it to 0 in this case); the second value affects the left and right side. (Here, auto is a special value that divides the available horizontal space evenly between left and right)*/
-  background-color: #ECBB95;
+  /* background-color: #ECBB95; */
+  background-color: #8cbfb8;
+  /* background-color: #39615b; */
   text-align: justify;
   text-justify: inter-word;
   color: #08192C;
+  /* color: white; */
 }
 
 figure {
